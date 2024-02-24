@@ -11,7 +11,7 @@ public class Solution {
             return 0;
         if (n < 2)
             return nums.get(0);
-        // return memoizationTechnique(nums, n);
+        return memoizationTechnique(nums, n);
         return tabulationTechnique(nums, n);
 
     }
